@@ -57,7 +57,7 @@ resource "megaport_mcr" "akl_mcr_1" {
 // Singapore MCR
 
 data "megaport_location" "sin_location_1" {
-  name = "Digital Realty SIN10"
+  name = "Digital Realty Singapore SIN10"
 }
 
 resource "megaport_mcr" "sin_mcr_1" {
