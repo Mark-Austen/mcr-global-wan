@@ -153,7 +153,7 @@ resource "megaport_vxc" "per_mcr_1_syd_mcr_1" {
     vrouter_config = {
       interfaces = [
         {
-          ip_addresses     = ["10.1.2.1/30"]
+          ip_addresses     = ["10.1.2.2/30"]
           bgp_connections = [
             {
               peer_asn         = 65001
@@ -203,7 +203,7 @@ resource "megaport_vxc" "per_mcr_1_akl_mcr_1" {
     vrouter_config = {
       interfaces = [
         {
-          ip_addresses     = ["10.1.3.1/30"]
+          ip_addresses     = ["10.1.3.2/30"]
           bgp_connections = [
             {
               peer_asn         = 65001
